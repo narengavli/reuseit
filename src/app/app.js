@@ -7,7 +7,7 @@ import Products from './pages/products';
 import Contact from './pages/contact';
 import About from './pages/about';
 import Sell from './pages/sell';
-import Register from './pages/register';
+
 
 // import global components
 import Footer from './global/footer';
@@ -23,7 +23,7 @@ const App = () => {
                 <Route path="/contact" element={<Contact />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/sell' element={<Sell />} />
-                <Route path='/register' element={<Register />} />
+                {/* <Route path='/register' element={<Register />} /> */}
             </Routes>
             <Footer />
         </Router>

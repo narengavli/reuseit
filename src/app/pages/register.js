@@ -1,9 +1,92 @@
+
 import React from 'react'
+import './register.css';
+export const Register = () => {
+  return (
+    <div>
+      <>
+      <form action="action_page.php">
+    <div className="container">
+      <h1>Register</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr />
+      <label htmlFor="Name">
+        <b>Name</b>
+      </label>
+      <input
+        type="text"
+        placeholder="Enter Name"
+        name="name"
+        id="name"
+        required=""
+      />
+      <label htmlFor="email">
+        <b>Email</b>
+      </label>
+      <input
+        type="text"
+        placeholder="Enter Email"
+        name="email"
+        id="email"
+        required=""
+      />
+      <label htmlFor="email">
+        <b>Mobile No</b>
+      </label>
+      <input
+        type="text"
+        placeholder="Enter Mobile No"
+        name="mobile"
+        id="mobile"
+        required=""
+      />
+      <select className="form-select" aria-label="Default select example">
+        <option selected="">Year</option>
+        <option value={1}>1st Year</option>
+        <option value={2}>2nd Year</option>
+        <option value={3}>3rd Year</option>
+        <option value={4}>4th Year</option>
+      </select>
+      <br />
+      <br />
+      <label htmlFor="psw">
+        <b>Password</b>
+      </label>
+      <input
+        type="password"
+        placeholder="Enter Password"
+        name="psw"
+        id="psw"
+        required=""
+      />
+      <label htmlFor="psw-repeat">
+        <b>Repeat Password</b>
+      </label>
+      <input
+        type="password"
+        placeholder="Repeat Password"
+        name="psw-repeat"
+        id="psw-repeat"
+        required=""
+      />
+      <hr />
+      <p>
+        By creating an account you agree to our{" "}
+        <a href="#">Terms &amp; Privacy</a>.
+      </p>
+      <button type="submit" className="registerbtn">
+        Register
+      </button>
+    </div>
+    <div className="container signin">
+      <p>
+        Already have an account? <a href="login.html">Sign in</a>.
+      </p>
+    </div>
+  </form>
+</>
 
-const Register = () => {
-    return (
-        <div>Register</div>
-    )
+</div>
+  )
 }
-
 export default Register

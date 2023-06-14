@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@900&family=Roboto&display=swap');
+* {box-sizing: border-box}
+
+/* navbar */
+html
+{
+  font-family: 'Piazzolla', serif;
+}
+.navbar
+{
+  overflow: hidden;
+  margin: auto;
+  display: inline;
+  
+  align-items: center;
+  justify-content: space-between;
+}
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+#navbar ul { 
+  margin: -11px;
+  padding: 13px;
+  list-style-type: none;
+  /* text-align: center; */
+  background-color: #fca311;
+	} 
+ #logo
+ {
+  height: 39px;
+  width: 42px;
+  background-color: transparent;
+  display: inline;
+  padding: -11px -2px;
+  margin: -13px -6px;
+ }
+ 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 1000,
+  'GRAD' 0,
+  'opsz' 70
+
+}
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 0.4;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+}
+
+ .row
+ {
+  padding: 2px;
+  margin: 1px;
+ }
+ .col {
+  display: flex;
+  flex-direction: column;
+  padding: -4px;
+  margin: 7px;}
+.col p{
+  margin: 12px -13px;
+    padding: 2px;
+}
+#navbar ul li {  
+	display: inline-block;
+    margin: -32px 13px;
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #14213d; 
+	
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	}
+
+/* Add padding to containers */
+
+.container {
+  padding: 16px;
+}
+
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.form-select
+{
+  margin: 1px;
+  padding: 14px;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #14213d;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color:rgb(10, 134, 184);
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
