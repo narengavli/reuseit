@@ -7,6 +7,8 @@ import Products from './pages/products';
 import Contact from './pages/contact';
 import About from './pages/about';
 import Sell from './pages/sell';
+import {Register} from './pages/register';
+import {Login} from './pages/login';
 
 
 // import global components
@@ -23,7 +25,8 @@ const App = () => {
                 <Route path="/contact" element={<Contact />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/sell' element={<Sell />} />
-                {/* <Route path='/register' element={<Register />} /> */}
+                 <Route path='/register' element={<Register />} /> 
+                 <Route path='/login' element={<Login />} /> 
             </Routes>
             <Footer />
         </Router>

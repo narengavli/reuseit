@@ -1,13 +1,25 @@
 
 import React from 'react'
 import './register.css';
+import './login'
+import { Button } from '@mui/material';
+import {Login} from './login';
+import {Routes, Route, useNavigate} from 'react-router-dom';
 export const Register = () => {
+  const navigate = useNavigate();
+
+  const navigateToLogin = () => {
+    // 👇️ navigate to /contacts
+    navigate('/login');
+  };
+
   return (
     <div>
       <>
       <form action="action_page.php">
     <div className="container">
       <h1>Register</h1>
+      
       <p>Please fill in this form to create an account.</p>
       <hr />
       <label htmlFor="Name">
@@ -80,8 +92,12 @@ export const Register = () => {
     </div>
     <div className="container signin">
       <p>
-        Already have an account? <a href="login.html">Sign in</a>.
-      </p>
+        Already have an account?</p> 
+          {/* <button type='text' onClick={navigateToLogin}> login</button>
+          */}
+          
+  <Button variation="text" onClick={navigateToLogin}> Login </Button>
+
     </div>
   </form>
 </>

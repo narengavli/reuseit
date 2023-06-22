@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@900&family=Roboto&display=swap');
 * {box-sizing: border-box}
 
@@ -118,7 +119,10 @@ input[type=text]:focus, input[type=password]:focus {
   margin: 1px;
   padding: 14px;
 }
-
+h1{
+  text-align: center;
+  font-size: 25px;
+}
 /* Overwrite default styles of hr */
 hr {
   border: 1px solid #f1f1f1;
