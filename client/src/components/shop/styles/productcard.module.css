@@ -1,0 +1,24 @@
+.image {
+    border-radius: 8px;
+    object-fit: scale-down;
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.cardBody {
+    margin-top: 10px;
+}
+
+.add2Favorite {
+    position: relative;
+    left: 240px;
+    bottom: 220px;
+    z-index: 1;
+}
+
+.description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

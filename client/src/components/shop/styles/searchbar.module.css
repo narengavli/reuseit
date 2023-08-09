@@ -1,0 +1,47 @@
+.container {
+    padding-top: 10px;
+    width: 40%;
+}
+
+.searchBox {
+    display: flex;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.searchInput {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+.searchButton {
+    border: none;
+    background-color: inherit;
+}
+
+.suggestionBox {
+    list-style-type: none;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.suggestionItem {
+    border-bottom: 1px solid #eeeeee;
+    padding: 10px;
+}
+
+.suggestionItem:hover {
+    background-color: #eeeeee;
+}
+
+.active {
+    background-color: #eeeeee;
+}
+
+.suggestionBox .suggestionItem:last-child {
+    border: none;
+}
