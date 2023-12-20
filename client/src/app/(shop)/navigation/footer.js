@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <Box py={2} sx={{ backgroundColor: "#f5f5f5" }}>
             <Container maxWidth="xl" sx={{ display: "flex", justifyContent: 'space-between', alignItems: "center" }}>
-                <Typography>&#169; 2023 narengavli. All rights reserved.</Typography>
+                <Typography>&#169; 2023 All rights reserved.</Typography>
                 <IconButton aria-label="delete">
                     <GitHubIcon />
                 </IconButton>
